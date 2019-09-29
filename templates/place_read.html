@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place POI Analysis Flask App</title>
+  </head>
+   <body>
+     <h1>Write Place for Finding POI and Analysis</h1>
+     <h2> Eg - Delhi<h2>
+      <form action = "{{ url_for('process_place_result') }}" method = "POST"
+         enctype = "multipart/form-data">
+         <label for="text">Input</label>
+         <input type = "text" size="50" name = "text" />
+         <br>
+         <br>
+         <br>
+         <input type = "submit" value = "Find Place and Analysis"/ >
+      </form>
+
+   </body>
+</html>
