@@ -3,7 +3,7 @@ scipy==1.1.0
 pandas==0.24.2
 matplotlib==2.2.3
 requests==2.21.0
-numpy==1.16.2
+numpy==1.22.0
 geopandas==0.6.0
 osmnx==0.10
 Shapely==1.6.4.post2
